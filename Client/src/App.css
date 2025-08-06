@@ -1,0 +1,68 @@
+/* איפוס כללי */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+  /* רקע */
+  background-color: #faecdc;
+  background-image: url('img/רקע8.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* קישורים */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* קונטיינר עמוד – אופציונלי */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+.header, .footer {
+  
+}
+
+/* אזור תוכן עיקרי */
+.main {
+  flex-grow: 1;
+}
+
+/* מסכים רחבים */
+@media (min-width: 768px) {
+  .header, .footer {
+    flex: 1;
+  }
+
+  .main {
+    flex: 2;
+  }
+}
+
+/* מסכים קטנים */
+@media (max-width: 767px) {
+  .header, .footer {
+    flex: 1;
+  }
+
+  .main {
+    flex: 3;
+  }
+}
