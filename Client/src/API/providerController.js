@@ -1,4 +1,5 @@
-const BASE_URL = 'http://localhost:3000';
+// const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://ordering-system-3f6c.onrender.com';
 
 // רישום ספק חדש (יוצר גם משתמש ומחזיר טוקן)
 export const createProvider = async (providerData) => {

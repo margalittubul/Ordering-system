@@ -1,4 +1,5 @@
-const BASE_URL = 'http://localhost:3000';
+// const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://ordering-system-3f6c.onrender.com';
 
 // קבלת כל ההזמנות 
 export const getAllOrders = async () => {
