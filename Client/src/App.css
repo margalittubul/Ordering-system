@@ -14,7 +14,7 @@ html, body {
 
   /* רקע */
   background-color: #faecdc;
-  background-image: url('img/רקע8.jpg'); 
+  background-image: url('/img/רקע8.jpg'); 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
