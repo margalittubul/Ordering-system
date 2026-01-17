@@ -26,7 +26,7 @@ const orderSchema = new mongoose.Schema({
     default: 'הוזמן',                
     required: true                   
   },
-    totalAmount: {
+  totalAmount: {
     type: Number,
     required: true
   }

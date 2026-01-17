@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-    trim: true
+    trim: true //מנקה רווחים בתחילה ובסוף המחרוזת
   },
   password: {
     type: String,
